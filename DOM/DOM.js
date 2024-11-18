@@ -3,21 +3,21 @@
 // The DOM allows you to interact with, modify, and manipulate the content, structure, and style of a webpage using programming languages like JavaScript.
 // we can manipulate HTML & CSS using "DOM" method, and i we can give logic, action  and animation to webPage using "DOM" method.
 
-let nav = document.getElementById("nav"); // using document.getElementById we can access "HTMl" id(id="") value.
+let nav = document.getElementById("nav"); // using document.getElementById we can access "HTMl" id(id="") element value.
 
-let menuName = document.getElementsByName("menu"); // using document.getElementsByName we can access "HTML" name(name="") value.
+let menuName = document.getElementsByName("menu"); // using document.getElementsByName we can access "HTML" name(name="") element value.
 
-let langList = document.getElementsByClassName("languages-list"); // using document.getElementsByClassName we can access "HTML" class(class="") value.
+let langList = document.getElementsByClassName("languages-list"); // using document.getElementsByClassName we can access "HTML" class(class="") elememt value.
 
 
-// using document.querySelector we can access "HTML" any identifier/classes, but only first Identifier/Classes.
+// using document.querySelector we can access "HTML" any identifier/classes, but only first element. 
 let lang = document.querySelector("#LC"); // we can access class(class="") by using .(Dot)and then value.
 
 let Development = document.querySelector(".DVP"); // we can access id(id="") by using #(Hash) and then value. 
 
 let List = document.querySelector(".Development-List");
 
-let fieldList = document.querySelectorAll(".list"); // using document.querySelectorAll we can access all Classes and identifier.
+let fieldList = document.querySelectorAll(".list"); // using document.querySelectorAll we can access all elements, Classes and identifier .
 
 
 // --------------------------------- i am manipulating HTML & CSS here --------------------------------------
