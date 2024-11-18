@@ -72,6 +72,7 @@ languagesContainer.style.background = "linear-gradient(to right, #4340f0, #07f56
 languagesContainer.style.padding = "10px";  // Add padding inside the container
 languagesContainer.style.marginTop = "10px";  // Add some margin on top of the container
 languagesContainer.style.borderRadius = "10px";  // Round the corners of the container
+languagesContainer.style.cursor = "pointer"; // Change cursor to a pointer
 
 // Select the <h2> inside the languages container and apply styles
 const languagesTitle = languagesContainer.querySelector("h2");
@@ -109,6 +110,7 @@ development.style.background = "linear-gradient(to right, #4340f0, #07f562)";  /
 development.style.padding = "10px";  // Add padding inside the development section
 development.style.marginTop = "10px";  // Add margin on top of the section
 development.style.borderRadius = "10px";  // Round the corners of the section
+development.style.cursor = "pointer"; // change curser to a pointer
 
 // Select the <h2> inside the development section and apply styles
 const developmentTitle = development.querySelector("h2");
