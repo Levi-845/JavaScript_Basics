@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f0f0f0;
+}
+
+/*---------------------------------- Navigation Bar ---------------------------------------*/
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ------------------------------- Languages List -------------------------------- */
+.languages-container {
+    text-align: center;
+    background: linear-gradient(to right, #4340f0, #07f562);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.languages-container h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.languages-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.languages-list li {
+    color: white;
+    margin: 10px 0;
+}
+
+.languages-list li:hover {
+    /* color: #ffeb3b; */
+    color: red;
+    cursor: pointer;
+}
+
+/* ----------------------- Development List  --------------------------- */
+.Development {
+    text-align: center;
+    background: linear-gradient(to right, #4340f0, #07f562);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Development h2 {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.Development-List {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.Development-List li {
+    color: white;
+    margin: 10px 0;
+}
+
+.Development-List li:hover {
+    /* color: #ffeb3b; */
+    color: red;
+    cursor: pointer;
+}
