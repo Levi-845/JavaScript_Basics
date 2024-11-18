@@ -2,6 +2,8 @@
 
 # In simpler terms, the DOM is like a map of the webpage that JavaScript (or other programming languages) can interact with. It allows you to manipulate the page dynamically, changing its content, structure, and style without needing to reload the page.
 
+# element means HTML(tags, className, id, attributes, text, etc.).
+
  # ----- Key Concepts of the DOM: -----
  
 # Document:
