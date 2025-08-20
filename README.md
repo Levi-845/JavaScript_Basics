@@ -7,5 +7,6 @@
 - DataType
 - Conditional
 - DOM
+- Logics
  
 
